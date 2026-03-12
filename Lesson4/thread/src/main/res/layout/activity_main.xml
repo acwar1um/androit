@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/enterPairs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Общее количество пар"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:id="@+id/enterDays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Количество учебных дней"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Рассчитать среднее количество пар"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/Result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Результат: "
+        android:padding="8dp"/>
+
+</LinearLayout>
