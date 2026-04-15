@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "MireaProject"
 include(":app")
+include(":lesson4_worker")
+include(":lesson5_control")

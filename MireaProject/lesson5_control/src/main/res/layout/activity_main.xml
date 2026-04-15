@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Акселерометр -->
+    <TextView
+        android:id="@+id/textViewAzimuth"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Azimuth: " />
+
+    <TextView
+        android:id="@+id/textViewPitch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pitch: " />
+
+    <TextView
+        android:id="@+id/textViewRoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Roll: " />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Камера -->
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:contentDescription="image"
+        android:scaleType="centerCrop" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginVertical="16dp"
+        android:background="@android:color/darker_gray" />
+
+    <!-- Аудиозапись -->
+    <Button
+        android:id="@+id/recordButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start recording" />
+
+    <Button
+        android:id="@+id/playButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start playing"
+        android:enabled="false" />
+
+</LinearLayout>
